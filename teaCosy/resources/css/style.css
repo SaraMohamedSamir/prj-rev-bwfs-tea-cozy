@@ -1,0 +1,124 @@
+
+/* Shared style settings */
+div, h2, h3, h4, .item span {
+  display: block;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2, h3, h4 {
+  margin: 10px;
+}
+
+header, .main-body, .items, #locations .locations, .location {
+  display: flex;
+  justify-content: center;
+}
+
+.main-body, .mission, .tea-cozy, #locations {
+  margin: auto;
+}
+
+body, header, .mission, .location {
+  background-color: Black;
+}
+
+header, .mission {
+  width: 100%;
+}
+
+#locations, .main-body, .tea-cozy {
+  padding-top: 70px;
+}
+
+/* Header style settings */
+header {
+  position: fixed;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  hight: 69px;
+  top: 0px;
+  left:0px;
+}
+
+header img {
+  height: 50px;
+  padding-right: 10px;
+}
+
+header nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+header nav span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+header nav span a {
+  color: seashell;
+}
+
+/* Mission style settings */
+.main-body {
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+/* The Tea cozy style settings */
+.tea-cozy {
+  width: 1000px;
+  height: 700px;
+}
+
+.items {
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span {
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* locations style settings */
+#locations {
+  height: 500px;
+  width: 1100px;
+  background-image: url(../images/img-locations-background.jpg);
+}
+
+.location {
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  margin: 5px 20px;
+}
+
+/* contact style settings */
+#contact {
+  padding-top: 10px;
+  height: 200px;
+}
+
+/* Footer style settings */
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
